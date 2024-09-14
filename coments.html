@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style_all.css">
+    <link rel="stylesheet" href="CSS/style_comments.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave a Comment</title>
+</head>
+<body>
+    <header>
+        <!-- Name -->
+        <!-- logo -->
+        <!-- Buttons to key things -->
+        <a href="welcome.html"><h1 id="name">Ari's Recipes</h1></a>
+        <nav>
+            <ul id="nav-ul">
+                <div id="nav-search"> 
+                    <form action="/search_results">
+                        <input type="text" name="query" placeholder="Find your own perfect... ">
+                        <button type="submit">Search</button>
+                        <!-- <img src="Mag.png" alt="Image Of A Magnifying Glass"> -->
+                    </form>
+                </div>
+                <div id="nav-genral">
+                    
+                    <!-- will as a log in icon like this -->
+                    <a href="login.html" id="log-in-bar"> 
+                        <div>
+                        <img id="log-in-img" src="login-icon.png" alt="Log In Icon" > 
+                        </div>
+                        <div>
+                        Log In 
+                        </div>
+                    </a>
+                    <a href="mag_sub.html">Magazine Subscription</a>
+                    <a href="Latest.html">Latest Recipes</a>
+                    <a href="top3.html" id="last_a">My Top 3 Recipes</a>
+                    <!-- How to add those line inbetween the options, bot look like buttons but options -->
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div>
+        <!-- be the comment box and kinda like quiz format -->
+
+    </div>
+    <hr> <!-- Horizontal line -->
+    <main>
+        <p id="space1"></p>
+        <section id="form_section">
+            <p id="form_name">Leave me your insight*</p>
+            <form action="" method="" id="form">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+                <label for="Last_name">Last Name:</label>
+                <input type="text" id="Last_name" name="Last_name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <!-- checkbox Nums-->
+                 <p>
+                    <label for="favourite_part">What is the best part of this website:</label>
+                    <input type="checkbox" name="1" id="1">
+                    <label for="1">Header</label>
+                    <input type="checkbox" name="2" id="2">
+                    <label for="2">Body</label>
+                    <input type="checkbox" name="3" id="3">
+                    <label for="3">Logo</label>
+                    <input type="checkbox" name="4" id="4">
+                    <label for="4">Other</label>
+                 </p>
+                <br>
+                <!-- area of text -->
+                <label for="bio">Your comments:</label>
+                <textarea name="bio" id="bio" ></textarea>
+                <!-- cols="70" rows="5" -->
+                <br>
+                <!-- send button -->
+                <input id="send_but" type="submit" value="Send!">
+    
+                <!-- name is what tells you where it is for -->
+                <!-- Input:email for checking if @ symbol there -->
+                <!-- lable for screan readers to know what input for! If I click on name rather than box or close to the box, I will still be able to acess it! -->
+            </form>
+            <p id="tiny_writing">*For context this won't send to me as I have not done any coding to cleect the data</p>
+        </section>
+        <p id="space3"></p>
+    </main> 
+    <hr> <!-- Horizontal line -->
+    <div id="grid_footer">
+        <footer>
+            <nav>
+                <ul id="ul_foot">
+                    <div id="nav_foot">
+                        <a href="bio.html">Author's Profile</a>
+                        <a href="main.html">Main Page</a>
+                    </div>
+                    <p></p>
+                    <section id="bottom_foot">
+                        <div>
+                            <a href="welcome.html"><h1 id="name_2">Ari's Recipes</h1></a>
+                        </div>
+                        <div id="copyright">
+                            <h4>Last Post: 14-09-24</h4>
+                            &copy; Aryan Bakhai 2024
+                        </div>
+                        <div>
+                            <a href="welcome.html"><h1 id="name_2">Ari's Recipes</h1></a>
+                        </div>  
+                    </section>
+                </ul>
+            </nav>
+        </footer>
+        
+    </div>
+</body>
+</html>

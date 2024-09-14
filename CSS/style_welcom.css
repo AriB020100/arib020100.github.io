@@ -1,0 +1,39 @@
+#a_mid{
+    /* width: 100px; */
+    /* background-color: blue; */
+    text-align: center;
+}
+
+#div1{
+    grid-area: div1;
+}
+#div2{
+    grid-area: div2;
+    /* background-color: rgba(255, 192, 203, 0.288); */
+    padding-left: 1em;
+    padding-right: 1em;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    margin-top: 0.2em;
+    text-align: justify;
+
+}
+#div3{
+    grid-area: div3;
+}
+#body_grid{
+    display: grid;
+    grid-template-areas: 
+    "div1 div2 diiv3"
+    ;
+    /* grid by names */
+    grid-template-columns: 1fr 10fr 1fr;
+    /* fr for fration 30 70, or 3 7 */
+}
+#pos{
+    color: rgb(4, 130, 4);
+}
+
+#neg{
+    color: rgb(222, 9, 9);
+}

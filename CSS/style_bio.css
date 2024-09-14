@@ -1,0 +1,86 @@
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vh;
+    text-align: center;
+}
+
+main>section{
+    width: 70%;
+    padding: 2vh;
+    background-color: #e1f7f1;
+    border: 3px solid #d88014;
+}
+
+#right{
+    text-align: center;
+    padding: 2vw;
+    background-color: #e1f7f1;
+    padding-right: 5vw;
+    border: 3px solid #d88014;
+
+}
+#left{
+    text-align: center;
+    padding: 2vw;
+    background-color: #e1f7f1;
+    padding-left: 5vw;
+    border: 3px solid #d88014;
+}
+
+main ul{
+    padding: 0;
+}
+
+#img_me{
+    height: 20vh;
+    width: 20vh;
+}
+
+
+body>main>section>article>h2{
+    grid-area: title;
+    text-align: justify;
+    /* padding-top: 3vh; */
+    /* padding-right: 0%;
+    padding-left: 5%; */
+    width: 33.3333vw;
+    text-align: justify;
+    align-items: center;
+    /* background-color: blue; */
+    color: #607C29;
+    font-family: "Satisfy", 'Times New Roman', Times, serif;
+    margin-left: 3VW;
+    /* background-color: blueviolet; */
+    /* its perfect amount of place */
+    font-size: 6vh;
+    text-decoration: none;
+}
+
+body>main>section>article>img{
+    grid-area: img;
+    align-content: end;
+    margin-left: 3VW;
+    margin-right: 3VW;
+}
+body>main>section>article>#art{
+    grid-area: art;
+    text-align: justify;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+body>main>section>article{
+    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "title title img"
+    "art art art"
+    "art art art"
+    ;
+    /* grid by names */
+    grid-template-columns: 2fr 1fr 1fr;
+    /* fr for fration 30 70, or 3 7 */
+}
+

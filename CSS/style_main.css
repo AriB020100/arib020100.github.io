@@ -1,0 +1,218 @@
+#grid_recipe1>p{
+    grid-area: p1;
+    background-color: rgb(134, 211, 211);
+    margin: 0;
+}
+#grid_recipe1>img{
+    grid-area: img1;
+    background-color: rgb(224, 244, 179);
+}
+#grid_recipe1>article{
+    grid-area: art1;
+    /* background-color: rgb(4, 43, 43); */
+    word-break: break-all;
+    font-size: 0.5em;
+}
+
+#grid_recipe1{
+    display: grid;
+    grid-template-areas: 
+    "p1"
+    "img1"
+    "art1"
+    ;
+    /* grid by names */
+    grid-template-rows: 1fr 2fr 3fr; 
+    /* fr for fration 30 70, or 3 7 */
+    grid-area: r1;
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid rgb(52, 34, 0);
+    /* background-color: aqua; */
+    background-color: blanchedalmond;
+    margin-bottom: 0.5vh;
+
+}
+
+#grid_recipe2>p{
+    grid-area: p2;
+    margin: 0;
+}
+#grid_recipe2>img{
+    grid-area: img2;
+}
+#grid_recipe2>article{
+    grid-area: art2;
+    word-break: break-all;
+    font-size: 0.5em;
+}
+#grid_recipe2{
+    display: grid;
+    grid-template-areas: 
+    "p2"
+    "img2"
+    "art2"
+    ;
+    /* grid by names */
+    grid-template-rows: 1fr 2fr 3fr; 
+    /* fr for fration 30 70, or 3 7 */
+    grid-area: r2;
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid rgb(52, 34, 0);
+    /* background-color: aqua; */
+    background-color: blanchedalmond;
+    margin-bottom: 0.5vh;
+}
+
+#grid_recipe3>p{
+    grid-area: p3;
+    margin: 0;
+}
+#grid_recipe3>img{
+    grid-area: img3;
+}
+#grid_recipe3>article{
+    grid-area: art3;
+    word-break: break-all;
+    font-size: 0.5em;
+}
+#grid_recipe3{
+    display: grid;
+    grid-template-areas: 
+    "p3"
+    "img3"
+    "art3"
+    ;
+    /* grid by names */
+    grid-template-rows: 1fr 2fr 3fr; 
+    /* fr for fration 30 70, or 3 7 */
+    grid-area: r3;
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid rgb(52, 34, 0);
+    /* background-color: aqua; */
+    background-color: blanchedalmond;
+    margin-bottom: 0.5vh;
+}
+
+#grid_recipe4>p{
+    grid-area: p4;
+    background-color: rgb(134, 211, 211);
+    margin: 0;
+}
+#grid_recipe4>img{
+    grid-area: img4;
+    background-color: rgb(224, 244, 179);
+}
+#grid_recipe4>article{
+    grid-area: art4;
+    /* background-color: rgb(4, 43, 43); */
+    word-break: break-all;
+    font-size: 0.5em;
+}
+
+#grid_recipe4{
+    display: grid;
+    grid-template-areas: 
+    "p4"
+    "img4"
+    "art4"
+    ;
+    /* grid by names */
+    grid-template-rows: 1fr 2fr 3fr; 
+    /* fr for fration 30 70, or 3 7 */
+    grid-area: r4;
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid rgb(52, 34, 0);
+    /* background-color: aqua; */
+    background-color: blanchedalmond;
+    margin-top: 0.5vh;
+
+}
+
+#grid_recipe5>p{
+    grid-area: p5;
+    margin: 0;
+}
+#grid_recipe5>img{
+    grid-area: img5;
+}
+#grid_recipe5>article{
+    grid-area: art5;
+    word-break: break-all;
+    font-size: 0.5em;
+}
+#grid_recipe5{
+    display: grid;
+    grid-template-areas: 
+    "p5"
+    "img5"
+    "art5"
+    ;
+    /* grid by names */
+    grid-template-rows: 1fr 2fr 3fr; 
+    /* fr for fration 30 70, or 3 7 */
+    grid-area: r5;
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid rgb(52, 34, 0);
+    /* background-color: aqua; */
+    background-color: blanchedalmond;
+    margin-top: 0.5vh;
+}
+
+#grid_recipe6>p{
+    grid-area: p6;
+    margin: 0;
+}
+#grid_recipe6>img{
+    grid-area: img6;
+}
+#grid_recipe6>article{
+    grid-area: art6;
+    word-break: break-all;
+    font-size: 0.5em;
+}
+#grid_recipe6{
+    display: grid;
+    grid-template-areas: 
+    "p6"
+    "img6"
+    "art6"
+    ;
+    grid-area: r6;
+    /* grid by names */
+    grid-template-rows: 1fr 2fr 3fr; 
+    /* fr for fration 30 70, or 3 7 */
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid rgb(52, 34, 0);
+    /* background-color: aqua; */
+    background-color: blanchedalmond;
+    margin-top: 0.5vh;
+}
+
+main aside{
+    grid-area: no;
+    background-color: rgba(206, 120, 14, 0.467);
+    border: 2px solid rgb(52, 34, 0);
+}
+
+#grid_all_recipe{
+    display: grid;
+    grid-template-areas: 
+    "r1 r2 r3 no"
+    "r4 r5 r6 no"
+    ;
+    /* grid by names */
+    grid-template-columns: 1fr 1fr 1fr 2fr; 
+    grid-row: 1fr 1fr;
+    /* fr for fration 30 70, or 3 7 */
+    justify-content: space-around;
+    margin-top: 1vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+

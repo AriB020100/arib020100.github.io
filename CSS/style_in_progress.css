@@ -1,0 +1,16 @@
+main>div{
+    font-size: 10vh;
+    background-color: rgb(207, 236, 119);
+    font-family: "Bebas Neue", sans-serif;
+    border: 20px solid black;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    word-wrap: break-word;
+}
+main>div>h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 1vh;
+}
+

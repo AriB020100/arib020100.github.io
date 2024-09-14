@@ -1,0 +1,79 @@
+#space1{
+    grid-area: s1;
+}
+#form_section{
+    grid-area: s2;
+    background-color: rgba(51, 235, 170, 0.399);
+    padding: 10px;
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#space3{
+    grid-area: s3;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    "s1 s2 s3"
+    ;
+    /* grid by names */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* fr for fration 30 70, or 3 7 */
+}
+
+#tiny_writing{
+    font-size: 0.1em;
+}
+
+main p {
+    margin: 0;
+}
+
+#form_name{
+    margin: 0;
+    width: 33.3333vw;
+    text-align: center;
+    align-items: center;
+    color: #070c58;
+    font-family: "Satisfy", 'Times New Roman', Times, serif;
+    font-size: 6vh;
+    border: 1px solid #033828;
+    background-color: #E7BC88;
+}
+
+#bio{
+    width: 50vw;
+    height: 15vh;
+    background-color: #e1f7f1;
+    border: 1px solid #d88014;
+}
+
+main input{
+    background-color: #e1f7f1;
+    border: 1px solid #d88014;
+    padding: 0;
+}
+
+#send_but{
+    background-color: rgba(12, 142, 206, 0.371);
+    border: 1px thick;
+    width: 10em;
+}
+
+input[type="checkbox" i] {
+    background-color: #e1f7f1;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: 1px solid #d88014;
+}
