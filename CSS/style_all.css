@@ -39,7 +39,7 @@ body>header button{
 }
 
 body>header input {
-    color: aquamarine;
+    color: #d88014;
     border-radius: 7%;
     /* border: 0.1px solid green; */
     font-family: 'Courier New', Courier, monospace;
